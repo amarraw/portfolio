@@ -1,0 +1,68 @@
+.stats-container {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.language-stats {
+    margin-top: 16px;
+}
+
+.language-bar {
+    height: 8px;
+    background: #21262d;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.language-segment {
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.python {
+    background: #3572A5;
+}
+
+.html {
+    background: #e34c26;
+}
+
+.css {
+    background: #563d7c;
+}
+
+.javascript {
+    background: #f1e05a;
+}
+
+.cpp {
+    background: #f34b7d;
+}
+
+.c {
+    background: #555555;
+}
+
+.language-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px;
+    font-size: 12px;
+}
+
+.language-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
